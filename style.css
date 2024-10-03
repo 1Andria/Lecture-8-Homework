@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    background-color: #EEE;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 1160px;
+    height: auto;
+    border: 16px solid #D8D8D8;
+    background: #EEE;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+}
+.box{
+    width: 360px;
+    height: 528px;
+    border-radius: 16px;
+    background: var(--White, #ffffff);
+    position: relative;
+}
+.logos{
+    display: flex;
+    gap: 9px;
+    position: absolute;
+    right: 30px;
+    bottom: 254px;
+    top: 250px;
+    left: 255px;
+    
+}
+.logos_2{
+    display: flex;
+    gap: 9px;
+    position: absolute;
+    right: 24px;
+    top: 250px;
+}
+.logo{
+    position: absolute;
+    right: 24px;
+    top: 250px;
+}
+.fire{
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: var(--Cards-3-main-button, #F8593B);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wheat{
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: var(--Cards-3-best-offer, #FFC22B);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leaf{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Cards-4-action-color, #2ECC71);
+}
+.name{
+    width: 198px;
+    color: var(--Heading-text, #081F32);
+    font-family: "DM Serif Display";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.24px;
+    position: absolute;
+    top: 248px;
+    right: 178px;
+    bottom: 255px;
+    left: 24px;
+}
+.text{
+    color: var(--Additional-text, #6E798C);
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    position: absolute;
+    right: 24px;
+    left: 24px;
+    bottom: 156px;
+
+}
+.cal{
+    color: var(--Cards-4-info-text, #A5ADBB);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    position: absolute;
+    left: 24px;
+    bottom: 107px;
+}
+.ragac{
+    color: var(--Cards-4-info-text, #A5ADBB);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    position: absolute;
+    right: 120px;
+    left: 123px;
+    bottom: 107px;
+}
+.celsius{
+    color: var(--Cards-4-info-text, #A5ADBB);
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 25px;
+    position: absolute;
+    right: 24px;
+    bottom: 107px;
+}
+.money_now{
+    color: var(--Heading-text, #081F32);
+    font-family: "DM Serif Display";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    width: 88px;
+    position: absolute;
+    bottom: 41px;
+    left: 24px; 
+}
+.old_money{
+    color: var(--Cards-3-main-button, #F8593B);
+    font-family: "DM Serif Display";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 41px;
+    left: 120px;
+}
+.order{
+    width: 114px;
+    height: 44px;
+    border-radius: 4px;
+    background: var(--Cards-4-action-color, #2ECC71);
+    border: none;
+    position: absolute;
+    bottom: 30px;
+    right: 24px;
+}
+.but_txt{
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 2.52px;
+}
+.info{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: var(--White, #FFF);
+    filter: drop-shadow(0px 4px 15px rgba(0, 0, 0, 0.10));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 24px;
+    top: 16px;
+}
